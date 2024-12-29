@@ -28,17 +28,17 @@ Standard Libraries:
 -json
 -pathlib
 -os
--re<br>
+-re
 -subprocess
-queue
-time
-threading
-Third-Party Libraries:
+-queue
+-time
+-threading
+-Third-Party Libraries:
 
-Pillow (pip install Pillow)
-pexpect (pip install pexpect)
-psutil (pip install psutil)
-screeninfo (pip install screeninfo)
+-Pillow (pip install Pillow)
+-pexpect (pip install pexpect)
+-psutil (pip install psutil)
+-screeninfo (pip install screeninfo)
 
 Installation of Dependencies:
 Before running the application, ensure that all required libraries are installed. 
