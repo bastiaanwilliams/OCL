@@ -13,7 +13,15 @@ Real-Time Traffic Monitoring: Monitor the total amount of data sent and received
 Theme Customization: Toggle between light and dark themes to suit your preferences.
 Splash Screen: A sleek splash screen that can be disabled for future launches.
 Cross-Platform Compatibility: Designed to work seamlessly on most Linux distributions.
-Screenshots
+See screenshots.
+
+Install Pythonm modules with pip3 preferable in a virtual environment:
+python3 -m venv venv
+source venv/bin/activate
+pip3 install Pillow
+pip3 install pexpect
+pip3 install psutils
+pip3 install screeninfo
 
 
 Requirements
