@@ -9,7 +9,7 @@ and theme customization.<br/><br/>
 
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot2.png)
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot4.png)
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot.png)
+![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot3.png)
 
 
 <b>Features:</b><br/>
