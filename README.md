@@ -1,43 +1,43 @@
 # OCL
 
-OpenVPN MFA Linux Client < br / >
-< br / >
+OpenVPN MFA Linux Client <br/>
+<br/>
 A user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides an intuitive graphical interface for 
 managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, 
-and theme customization.< br / >< br / >
+and theme customization.<br/><br/>
 
-Features:< br / >
+Features:<br/>
 Easy Configuration: Browse and select your OpenVPN .ovpn configuration files effortlessly.
 Secure Authentication: Enter your username and password securely, with support for Multi-Factor Authentication (MFA).
 Real-Time Traffic Monitoring: Monitor the total amount of data sent and received since the VPN connection was established.
 Theme Customization: Toggle between light and dark themes to suit your preferences.
 Splash Screen: A sleek splash screen that can be disabled for future launches.
 Cross-Platform Compatibility: Designed to work seamlessly on most Linux distributions.
-See screenshots.< br / >
-< br / >
+See screenshots.<br/>
+<br/>
 
-Install Pythonm modules with pip3 preferable in a virtual environment:< br / >
-python3 -m venv venv< br / >
-source venv/bin/activate< br / >
-pip3 install Pillow< br / >
-pip3 install pexpect< br / >
-pip3 install psutils< br / >
-pip3 install screeninfo< br / >
-< br / >
+Install Pythonm modules with pip3 preferable in a virtual environment:<br/>
+python3 -m venv venv<br/>
+source venv/bin/activate<br/>
+pip3 install Pillow<br/>
+pip3 install pexpect<br/>
+pip3 install psutils<br/>
+pip3 install screeninfo<br/>
+<br/>
 
-Requirements< br / >
--Python 3.6 or higher< br / >
--Python Libraries and Pip Modules< br / >
-
+Requirements<br/>
+-Python 3.6 or higher<br/>
+-Python Libraries and Pip Modules<br/>
+<br/>
 The following Python libraries and pip modules are required to run the OpenVPN Linux Client:
-
-Standard Libraries:< br / >
-< br / >
--tkinter (usually comes pre-installed with Python on most Linux distributions)< br / >
--json< br / >
--pathlib< br / >
--os< br / >
--re< br / >
+<br/>
+Standard Libraries:<br/>
+<br/>
+-tkinter (usually comes pre-installed with Python on most Linux distributions)<br/>
+-json<br/>
+-pathlib<br/>
+-os<br/>
+-re<br/>
 -subprocess< br / >
 -queue< br / >
 -time< br / >
