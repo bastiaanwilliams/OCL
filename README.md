@@ -28,7 +28,7 @@ Standard Libraries:
 -json
 -pathlib
 -os
--re
+-re<br>
 -subprocess
 queue
 time
