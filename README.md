@@ -24,11 +24,11 @@ The following Python libraries and pip modules are required to run the OpenVPN L
 
 Standard Libraries:
 
-tkinter (usually comes pre-installed with Python on most Linux distributions)
-json
-pathlib
-os
-re
+-tkinter (usually comes pre-installed with Python on most Linux distributions)
+-json
+-pathlib
+-os
+-re
 subprocess
 queue
 time
