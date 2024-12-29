@@ -5,6 +5,7 @@
 A user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides an intuitive graphical interface for 
 managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, 
 and theme customization.<br/><br/>
+![Alt text](Screenshot2024-12-29 15-14-04.png?raw=true "Optional Title")
 
 ![Alt text](Screenshot2024-12-29 15-14-04.png?raw=true "Optional Title")
 
