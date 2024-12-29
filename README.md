@@ -2,7 +2,9 @@
 
 OpenVPN MFA Linux Client 
 
-A user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides an intuitive graphical interface for managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, and theme customization.
+A user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides an intuitive graphical interface for 
+managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, 
+and theme customization.
 
 Features
 Easy Configuration: Browse and select your OpenVPN .ovpn configuration files effortlessly.
@@ -15,8 +17,9 @@ Screenshots
 
 
 Requirements
-Python 3.6 or higher
-Python Libraries and Pip Modules
+-Python 3.6 or higher
+-Python Libraries and Pip Modules
+
 The following Python libraries and pip modules are required to run the OpenVPN Linux Client:
 
 Standard Libraries:
@@ -36,12 +39,15 @@ Pillow (pip install Pillow)
 pexpect (pip install pexpect)
 psutil (pip install psutil)
 screeninfo (pip install screeninfo)
-Installation of Dependencies
-Before running the application, ensure that all required libraries are installed. You can install the necessary pip modules using the following command:
+
+Installation of Dependencies:
+Before running the application, ensure that all required libraries are installed. 
+You can install the necessary pip modules using the following command:
 
 
 pip3 install Pillow pexpect psutil screeninfo
-Note: tkinter is typically included with Python on most Linux distributions. If it's not installed, you can install it using your distribution's package manager. 
+Note: tkinter is typically included with Python on most Linux distributions. 
+If it's not installed, you can install it using your distribution's package manager. 
 For example, on Debian/Ubuntu-based systems:
 
 
