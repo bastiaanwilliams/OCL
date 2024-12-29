@@ -1,6 +1,6 @@
 # OCL
 
-<b>OpenVPN MFA Linux Client</b><br/>
+<b>OpenVPN Linux Client with MFA/2FA support.</b><br/>
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides an intuitive graphical interface for 
 managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, 
