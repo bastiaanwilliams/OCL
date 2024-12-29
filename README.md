@@ -29,7 +29,7 @@ Standard Libraries:
 -pathlib
 -os
 -re
-subprocess
+-subprocess
 queue
 time
 threading
