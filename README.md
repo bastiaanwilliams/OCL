@@ -92,10 +92,15 @@ Prepare OpenVPN Configuration<br/>
 <br/><br/>
 Obtain your .ovpn configuration file from your VPN provider and ensure it's accessible on your system.
 
-Usage:<br/>
+<b>Usage:</b><br/>
 Run the Application:<br/>
-Navigate to the project directory and execute the main Python script:<br/>
+Copy the project folder (ocl) to your computer. Navigate to the project directory and execute the main Python script:<br/>
 python3 openvpn_client.py<br/>
+<br/>
+Or use the executable:<br/>
+(Create with Nuitka: python3 -m nuitka --onefile --enable-plugin=tk-inter openvpn_linux_client.py)<br/>
+<br/>
+./openvpn_linux_client.bin<br/>
 <br/>
 Select Configuration File:<br/>
 Click the Browse button to locate and select your OpenVPN .ovpn configuration file.<br/>
