@@ -32,7 +32,7 @@ pip3 install psutils<br/>
 pip3 install screeninfo<br/>
 <br/>
 
-Requirements<br/>
+<b>Requirements</b><br/>
 -Python 3.6 or higher<br/>
 -Python Libraries and Pip Modules<br/>
 <br/>
@@ -50,14 +50,14 @@ Standard Libraries:<br/>
 -time<br/>
 -threading<br/>
 
-Third-Party Libraries:<br/><br/>
+<b>Third-Party Libraries:</b><br/><br/>
 <br/>
 -Pillow (pip install Pillow)<br/>
 -pexpect (pip install pexpect)<br/>
 -psutil (pip install psutil)<br/>
 -screeninfo (pip install screeninfo)<br/>
 <br/><br/>
-Installation of Dependencies:<br/>
+<b>Installation of Dependencies:</b><br/>
 Before running the application, ensure that all required libraries are installed. <br/>
 You can install the necessary pip modules using the following command:<br/>
 <br/><br/>
@@ -80,15 +80,16 @@ pip3 install Pillow pexpect psutil screeninfo<br/>
 Ensure OpenVPN is Installed<br/>
 <br/><br/>
 The client relies on the OpenVPN binary. Install OpenVPN using your distribution's package manager if it's not already installed.
-<br/>
-Debian/Ubuntu:<br/>
+<br/><br/>
+<b>Installation:</b><br/>
+<b>Debian/Ubuntu:</b><br/>
 sudo apt-get update<br/>
 sudo apt-get install openvpn<br/>
 <br/><br/>
-Fedora:<br/>
+<b>Fedora:</b><br/>
 sudo dnf install openvpn<br/>
 <br/><br/>
-Arch Linux:<br/>
+<b>Arch Linux:</b><br/>
 sudo pacman -S openvpn<br/>
 Prepare OpenVPN Configuration<br/>
 <br/><br/>
