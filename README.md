@@ -84,14 +84,14 @@ Ensure OpenVPN is Installed<br/>
 <b>Debian/Ubuntu:</b><br/>
 sudo apt-get update<br/>
 sudo apt-get install openvpn<br/>
-<br/><br/>
+<br/>
 <b>Fedora:</b><br/>
 sudo dnf install openvpn<br/>
-<br/><br/>
+<br/>
 <b>Arch Linux:</b><br/>
 sudo pacman -S openvpn<br/>
 Prepare OpenVPN Configuration<br/>
-<br/><br/>
+<br/>
 Obtain your .ovpn configuration file from your VPN provider and ensure it's accessible on your system.
 
 <b>Usage:</b><br/>
