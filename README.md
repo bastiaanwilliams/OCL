@@ -79,7 +79,7 @@ As mentioned in the Requirements section, install the necessary pip modules:<br/
 pip3 install Pillow pexpect psutil screeninfo<br/>
 Ensure OpenVPN is Installed<br/>
 <br/>
-<b>NOTE</b>The client relies on the OpenVPN binary. Install OpenVPN using your distribution's package manager if it's not already installed.
+<b>NOTE: </b>The client relies on the OpenVPN binary. Install OpenVPN using your distribution's package manager if it's not already installed.
 <br/>
 <b>Debian/Ubuntu:</b><br/>
 sudo apt-get update<br/>
