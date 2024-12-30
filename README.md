@@ -23,7 +23,7 @@ Cross-Platform Compatibility: Designed to work seamlessly on most Linux distribu
 See screenshots.<br/>
 <br/>
 
-Install Pythonm modules with pip3 preferable in a virtual environment:<br/>
+<b>Install Pythonm modules with pip3 preferable in a virtual environment:</b><br/>
 python3 -m venv venv<br/>
 source venv/bin/activate<br/>
 pip3 install Pillow<br/>
@@ -79,9 +79,8 @@ As mentioned in the Requirements section, install the necessary pip modules:<br/
 pip3 install Pillow pexpect psutil screeninfo<br/>
 Ensure OpenVPN is Installed<br/>
 <br/><br/>
-The client relies on the OpenVPN binary. Install OpenVPN using your distribution's package manager if it's not already installed.
-<br/><br/>
-<b>Installation:</b><br/>
+<b>The client relies on the OpenVPN binary. Install OpenVPN using your distribution's package manager if it's not already installed.</b>
+<br/>
 <b>Debian/Ubuntu:</b><br/>
 sudo apt-get update<br/>
 sudo apt-get install openvpn<br/>
