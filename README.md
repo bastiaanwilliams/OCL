@@ -7,9 +7,9 @@ managing OpenVPN connections, including features like configuration file selecti
 and theme customization.<br/><br/>
 
 
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot2.png)
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot4.png)
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/Screenshot3.png)
+![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
+![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot2.png)
+![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot3.png)
 
 
 <b>Features:</b><br/>
