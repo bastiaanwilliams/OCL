@@ -3,8 +3,9 @@
 <b>OpenVPN Client Gui for Linux with MFA/2FA support.</b><br/>
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides a graphical interface for 
-managing OpenVPN connections, including features like configuration file selection, authentication handling (including MFA), network traffic monitoring, 
-and theme customization.<br/><br/>
+the cli openvpn client (/usr/bin/openvpn) on Linux. Managing OpenVPN connections including features like configuration file selection, 
+authentication handling (including MFA/2FA), network traffic monitoring, 
+and theme.<br/><br/>
 
 
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
