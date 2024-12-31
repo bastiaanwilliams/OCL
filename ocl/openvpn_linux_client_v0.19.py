@@ -562,7 +562,7 @@ class OpenVPNClientApp:
 
                 if "AUTH_FAILED" in line:
                     raise Exception("Authentication failed. Please check your credentials.")
-                    tkinter.messagebox.showwarning(title="Error", message="Authentication failed.n\Please check your credentials.", **options)
+                    tkinter.messagebox.showwarning(title="Error", message="Authentication failed. Please check your credentials.", **options)
                 if "Initialization Sequence Completed" in line:
                     self.connected = True
                     self.root.after(0, self.update_ui_on_connect)
