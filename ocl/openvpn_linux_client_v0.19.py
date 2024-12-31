@@ -1,3 +1,25 @@
+#!/usr/bin/env python3
+"""
+OpenVPN Linux Client
+
+Author: Bastiaan Williams
+Email: bastiaanwilliams@protonmail.com
+Date: 2024-12-12
+Version: 0.19
+License: GPL 3
+
+Description:
+A user-friendly OpenVPN GUI client for Linux, built with Python3 and Tkinter.
+This application provides an intuitive graphical interface for managing
+OpenVPN connections, including features like configuration file selection,
+authentication handling (including MFA), network traffic monitoring, and 
+theme customization.
+"""
+
+__author__ = "Bastiaan Williams"
+__version__ = "0.19"
+__license__ = "GPL 3"
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
@@ -540,6 +562,7 @@ class OpenVPNClientApp:
 
                 if "AUTH_FAILED" in line:
                     raise Exception("Authentication failed. Please check your credentials.")
+                    tkinter.messagebox.showwarning(title="Error", message="Authentication failed.n\Please check your credentials.", **options)
                 if "Initialization Sequence Completed" in line:
                     self.connected = True
                     self.root.after(0, self.update_ui_on_connect)
