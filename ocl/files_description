@@ -1,8 +1,19 @@
-openvpn_linux_client_v0.18.bin - Standalone bin file which contains everything in one file. 
-Run in a terminal, ./openvpn_linux_client.bin
+openvpn_linux_client_v0.18.bin - Standalone bin file which can be executed directly.
+Note: You still need the bin and images folders.
+Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v0.18.bin
+or double click the executable bin file.
 
-openvpn_linux_client_v0.19.bin - Standalone bin file which contains everything in one file. 
-Run in a terminal, ./openvpn_linux_client.bin
+
+openvpn_linux_client_v0.19.bin - Standalone bin file which can be executed directly. 
+Note: You still need the bin and images folders.
+Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v0.19.bin
+or double click the executable bin file.
+
+
+openvpn_linux_client_v1.0.bin - Standalone bin file which can be executed directly. 
+Note: You still need the bin and images folders.
+Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v1.0.bin
+or double click the executable bin file
 
 openvpn_linux_client_v0.19.py - Python script. 
 Copy the script and the images folder into a new folder and run the python script inside<br/>
@@ -13,5 +24,18 @@ Example:
        python_script.py
 
 Run: python3 python_script.py
+
+<b>openvpn_linux_client_v1.0.py</b> - Python script. 
+Copy the script and the bin and images folder into a new folder and run the python script inside<br/>
+that folder.
+Example:
+- new_folder
+       -bin (folder)
+         -openvpn (executable)
+       -images (folder)
+       python_script.py
+
+Run: python3 python_script.py
+
 
 
