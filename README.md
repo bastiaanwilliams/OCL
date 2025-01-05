@@ -31,13 +31,13 @@ my_openvpn_app/<br/>
 ├── README.md<br/>
 └── ...<br/><br/>
 bin/: Holds the compiled OpenVPN binaries (one per supported platform).><br/>
-images/: Contains UI images (like backgrounds, icons, logos).><br/>
-openvpn_gui.py: Main Python script that calls bin/openvpn instead of relying on /usr/sbin/openvpn.><br/><br/>
+images/: Contains UI images (like backgrounds, icons, logos).<br/>
+openvpn_gui.py: Main Python script that calls bin/openvpn instead of relying on /usr/sbin/openvpn.<br/><br/>
 <b>How It Works</b><br/>
-Startup: When you run openvpn_gui.py, it detects your operating system (Windows, macOS, Linux, etc.) and chooses the appropriate binary from bin/.><br/>
+Startup: When you run openvpn_gui.py, it detects your operating system (Windows, macOS, Linux, etc.) and chooses the appropriate binary from bin/.<br/>
 Connection: The script spawns the bundled OpenVPN binary (openvpn.exe or openvpn) with your chosen .ovpn configuration.<br/>
-No System Dependencies: You do not need to install OpenVPN via package managers—everything is self-contained here.><br/><br/>
-License & Compliance><br/>
+No System Dependencies: You do not need to install OpenVPN via package managers—everything is self-contained here.<br/><br/>
+License & Compliance<br/>
 Because OpenVPN is licensed under the GPLv2, we include its binaries and provide (or offer) corresponding source code. Check our LICENSE_OPENVPN file for details, or see the official OpenVPN GitHub for source code and additional licensing information.<br/>
 <br/><br/>
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
