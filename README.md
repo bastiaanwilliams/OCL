@@ -1,11 +1,47 @@
 # OCL
-
 <b>OpenVPN Client Gui for Linux with MFA/2FA support.</b><br/>
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides a graphical interface for 
 the cli openvpn client (/usr/bin/openvpn) on Linux. Managing OpenVPN connections including features like configuration file selection, 
 authentication handling (including MFA/2FA), network traffic monitoring, 
 and theme.<br/><br/>
+<br/>
+Thought about versioning and GitHub explanation for a second<br/>
+Below is an example of how you might explain in your GitHub repository’s release notes or README that version 1.0 includes a new approach with the OpenVPN binary shipped in the bin/ directory.<br/>
+<br/>
+<b>Version 1.0 – New Bundled OpenVPN Approach</b><br/>
+<br/>In this v1.0 release, OCL now bundles its own OpenVPN client binary inside a dedicated bin/ folder, rather than relying on a system-wide installation of OpenVPN. This change provides the following benefits:<br/>
+<br/>
+Self-Contained: Users no longer need to install OpenVPN separately; the client executable is included within our distribution.<br/>
+Consistent Version: Every user runs the exact same version of OpenVPN, preventing version mismatches across different systems or distros.<br/>
+Easier Setup: Fewer prerequisites—just clone the repository (or unzip the release package) and run the script.<br/><br/>
+Folder Structure<br/>
+scss<br/>
+Copy code<br/>
+my_openvpn_app/<br/>
+├── bin/<br/>
+│   ├── openvpn         (Linux binary)<br/>
+│   ├── openvpn.exe     (Windows binary, if needed)<br/>
+│   └── openvpn_macos   (Mac binary, if needed)<br/>
+├── images/<br/>
+│   ├── background_dark.png<br/>
+│   ├── background_light.png<br/>
+│   ├── ...<br/>
+├── openvpn_gui.py (Main program)<br/>
+├── README.md<br/>
+└── ...<br/><br/>
+bin/: Holds the compiled OpenVPN binaries (one per supported platform).><br/>
+images/: Contains UI images (like backgrounds, icons, logos).><br/>
+openvpn_gui.py: Main Python script that calls bin/openvpn instead of relying on /usr/sbin/openvpn.><br/>
+><br/>
+<b>How It Works</b><br/>
+Startup: When you run openvpn_gui.py, it detects your operating system (Windows, macOS, Linux, etc.) and chooses the appropriate binary from bin/.><br/>
+Connection: The script spawns the bundled OpenVPN binary (openvpn.exe or openvpn) with your chosen .ovpn configuration.><br/>
+No System Dependencies: You do not need to install OpenVPN via package managers—everything is self-contained here.><br/>><br/>
+License & Compliance><br/>
+Because OpenVPN is licensed under the GPLv2, we include its binaries and provide (or offer) corresponding source code. Check our LICENSE_OPENVPN file for details, or see the official OpenVPN GitHub for source code and additional licensing information.
+><br/>><br/>
+
 
 
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
