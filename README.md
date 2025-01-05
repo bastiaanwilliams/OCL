@@ -41,9 +41,6 @@ No System Dependencies: You do not need to install OpenVPN via package managersâ
 License & Compliance><br/>
 Because OpenVPN is licensed under the GPLv2, we include its binaries and provide (or offer) corresponding source code. Check our LICENSE_OPENVPN file for details, or see the official OpenVPN GitHub for source code and additional licensing information.
 ><br/>><br/>
-
-
-
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot2.png)
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot3.png)
