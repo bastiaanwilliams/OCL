@@ -8,7 +8,17 @@ and theme.<br/><br/>
 <br/>
 Thought about versioning and GitHub explanation for a second<br/>
 Below is an example of how you might explain in your GitHub repository’s release notes or README that version 1.0 includes a new approach with the OpenVPN binary shipped in the bin/ directory.<br/>
-<br/>
+<br/><br/>
+<b><b>Newest Version 1.5</b> – Added a menu structure and updated style/themes</b><br/>
+The newest version of the OCL code includes a menu (top bar) with entries for:<br/>
+Add Config File<br/>
+About<br/>
+Settings<br/>
+Quit<br/><br/>
+The Settings menu item opens a themed Settings window, letting you enable/disable the splash screen and pick between Dark or Light themes.
+After saving, these preferences are written to a JSON file (config.json) in ~/.openvpn_client/, and the theme is applied instantly to the entire interface.
+On relaunch, the app remembers these preferences, so it continues in the chosen theme and respects the splash screen setting.
+This design provides a user-friendly and persistent settings experience, allowing users to customize the look and feel of your OpenVPN Linux Client with minimal effort.<br/><br/>
 <b>Version 1.0 – New Bundled OpenVPN Approach</b><br/>
 <br/>In this v1.0 release, OCL now bundles its own OpenVPN client binary inside a dedicated bin/ folder, rather than relying on a system-wide installation of OpenVPN. This change provides the following benefits:<br/>
 <br/>
