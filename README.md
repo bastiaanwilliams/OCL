@@ -1,4 +1,4 @@
-# OCL
+![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/logo.png) OCL
 <b>OpenVPN Client Gui for Linux with MFA/2FA support.</b><br/>
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides a graphical interface for 
