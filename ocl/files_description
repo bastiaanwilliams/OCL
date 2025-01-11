@@ -1,19 +1,22 @@
 openvpn_linux_client_v0.18.bin - Standalone bin file which can be executed directly.
 Note: You still need the bin and images folders.
 Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v0.18.bin
-or double click the executable bin file.
+or double click the executable bin file. If you get an libcrypto error or any other error related to
+the included openvpn binary, download the latest py file and bin/images folders and add/overwrite your own openvpn binary in the OCL/bin folder.
 
 
 openvpn_linux_client_v0.19.bin - Standalone bin file which can be executed directly. 
 Note: You still need the bin and images folders.
 Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v0.19.bin
-or double click the executable bin file.
+or double click the executable bin file. If you get an libcrypto error or any other error related to
+the included openvpn binary, download the latest py file and bin/images folders and add/overwrite your own openvpn binary in the OCL/bin folder.
 
 
 openvpn_linux_client_v1.0.bin - Standalone bin file which can be executed directly. 
 Note: You still need the bin and images folders.
 Copy the bin file and the bin images folders into a new folder and run in a terminal, ./openvpn_linux_client_v1.0.bin
-or double click the executable bin file
+or double click the executable bin file. If you get an libcrypto error or any other error related to
+the included openvpn binary, download the latest py file and bin/images folders and add/overwrite your own openvpn binary in the OCL/bin folder.
 
 openvpn_linux_client_v0.19.py - Python script. 
 Copy the script and the images folder into a new folder and run the python script inside<br/>
@@ -25,13 +28,13 @@ Example:
 
 Run: python3 python_script.py
 
-<b>openvpn_linux_client_v1.0.py</b> - Python script. 
+<b>openvpn_linux_client_v1.7.py</b> - Python script. 
 Copy the script and the bin and images folder into a new folder and run the python script inside<br/>
 that folder.
 Example:
 - new_folder
        -bin (folder)
-         -openvpn (executable)
+         -openvpn (executable) (if  you get errors replace this openvpn binary with your own)
        -images (folder)
        python_script.py
 
