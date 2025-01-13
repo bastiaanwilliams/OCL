@@ -3,13 +3,9 @@
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides a graphical interface for 
 the cli openvpn client (/usr/bin/openvpn) on Linux. Managing OpenVPN connections including features like configuration file selection, 
-authentication handling (including MFA/2FA), network traffic monitoring, 
-and theme.<br/><br/>
-<br/>
-Thought about versioning and GitHub explanation for a second<br/>
-Below is an example of how you might explain in your GitHub repository’s release notes or README that version 1.0 includes a new approach with the OpenVPN binary shipped in the bin/ directory.<br/>
+authentication handling (including MFA/2FA), network traffic monitoring, dark/light theme, store credentials etc.<br/><br/>
 <br/><br/>
-<b><b>Newest Version 1.5</b> – Added a menu structure and updated style/themes</b><br/>
+<b><b>Newest Version 2.1</b> – Added a menu structure and updated style/themes</b><br/>
 The newest version of the OCL code includes a menu (top bar) with entries for:<br/>
 Add Config File<br/>
 About<br/>
@@ -22,7 +18,7 @@ This design provides a user-friendly and persistent settings experience, allowin
 <b>Version 1.0 – New Bundled OpenVPN Approach</b><br/>
 <br/>In this v1.0 release, OCL now bundles its own OpenVPN client binary inside a dedicated bin/ folder, rather than relying on a system-wide installation of OpenVPN. This change provides the following benefits:<br/>
 <br/>
-Self-Contained: Users no longer need to install OpenVPN separately; the client executable is included within our distribution.<br/>
+Self-Contained: Users no longer need to install OpenVPN separately; the client executable (version OpenVPN 2.5.9 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Feb 14 2023) is included within the bin distribution.<br/>
 Consistent Version: Every user runs the exact same version of OpenVPN, preventing version mismatches across different systems or distros.<br/>
 Easier Setup: Fewer prerequisites—just clone the repository (or unzip the release package) and run the script.<br/><br/>
 Folder Structure<br/>
@@ -64,8 +60,28 @@ Theme Customization: Toggle between light and dark themes to suit your preferenc
 Splash Screen: A sleek splash screen that can be disabled for future launches.
 Cross-Platform Compatibility: Designed to work seamlessly on most Linux distributions.
 See screenshots.<br/>
+<br/><br/>
+Used Modules:<br/>
+import tkinter as tk<br/>
+from tkinter import filedialog, messagebox<br/>
+from PIL import Image, ImageTk<br/>
+import threading<br/>
+import pexpect<br/>
+import psutil<br/>
+import time<br/>
+import re<br/>
+import os<br/>
+import netifaces<br/>
+import sys<br/>
+import queue<br/>
+import json<br/>
+from pathlib import Path<br/>
+from screeninfo import get_monitors<br/>
+import platform<br/>
 <br/>
-
+# ---- NEW IMPORTS FOR ENCRYPTION ----<br/>
+from cryptography.fernet import Fernet<br/>
+<br/><br/><br/>
 <b>Install Pythonm modules with pip3 preferable in a virtual environment:</b><br/>
 python3 -m venv venv<br/>
 source venv/bin/activate<br/>
