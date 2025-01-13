@@ -159,7 +159,7 @@ Copy the project folder (ocl) to your computer. Navigate to the project director
 python3 openvpn_client.py<br/>
 <br/>
 Or use the executable:<br/>
-(Create with Nuitka: python3 -m nuitka --onefile --enable-plugin=tk-inter openvpn_linux_client.py)<br/>
+(Create with Nuitka: python3 -m nuitka --onefile --enable-plugin=tk-inter --include-data-dir=./images=./images --include-data-dir=./bin=./bin openvpn_linux_client.py)<br/>
 <br/>
 ./openvpn_linux_client.bin<br/>
 <br/>
