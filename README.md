@@ -5,7 +5,7 @@ A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built
 the cli openvpn client (/usr/bin/openvpn) on Linux. Managing OpenVPN connections including features like configuration file selection, 
 authentication handling (including MFA/2FA), network traffic monitoring, dark/light theme, store credentials savely (through keyring) etc.<br/><br/>
 <br/><br/>
-<b><b>Newest Version 2.1</b> – Added a menu structure and updated style/themes</b><br/>
+<b><b>Newest Version 1.8.2</b> – Added a menu structure and updated style/themes</b><br/>
 The newest version of the OCL code includes a menu (top bar) with entries for:<br/>
 Add Config File<br/>
 About<br/>
