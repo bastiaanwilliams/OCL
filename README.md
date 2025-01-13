@@ -49,8 +49,7 @@ Because OpenVPN is licensed under the GPLv2, we include its binaries and provide
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot2.png)
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot1.png)
 ![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot3.png)
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot4.png)
-![Alt text](https://github.com/bastiaanwilliams/OCL/blob/main/screenshot5.png)
+
 
 <b>Features:</b><br/>
 Easy Configuration: Browse and select your OpenVPN .ovpn configuration files effortlessly.
