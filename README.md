@@ -3,7 +3,7 @@
 <br/>
 A very simple user-friendly OpenVPN client for Linux with MFA/2FA support, built with Python3 and Tkinter. This application provides a graphical interface for 
 the cli openvpn client (/usr/bin/openvpn) on Linux. Managing OpenVPN connections including features like configuration file selection, 
-authentication handling (including MFA/2FA), network traffic monitoring, dark/light theme, store credentials etc.<br/><br/>
+authentication handling (including MFA/2FA), network traffic monitoring, dark/light theme, store credentials savely (through keyring) etc.<br/><br/>
 <br/><br/>
 <b><b>Newest Version 2.1</b> – Added a menu structure and updated style/themes</b><br/>
 The newest version of the OCL code includes a menu (top bar) with entries for:<br/>
@@ -75,6 +75,7 @@ import netifaces<br/>
 import sys<br/>
 import queue<br/>
 import json<br/>
+import keyring
 from pathlib import Path<br/>
 from screeninfo import get_monitors<br/>
 import platform<br/>
@@ -89,6 +90,9 @@ pip3 install Pillow<br/>
 pip3 install pexpect<br/>
 pip3 install psutils<br/>
 pip3 install screeninfo<br/>
+pip3 install netifaces<br/>
+pip3 install cryptography<br/>
+pip3 install keyring<br/>
 <br/>
 
 <b>Requirements</b><br/>
